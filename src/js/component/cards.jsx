@@ -1,5 +1,5 @@
 import React from "react";
-export const cards = () => {
+export const Cards = () => {
     return (
         <><div className="mt-2" />
         <div className="card-group mx-auto" style={{ maxWidth: 1000 }}>

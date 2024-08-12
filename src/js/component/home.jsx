@@ -1,9 +1,10 @@
 import React from "react";
 import { Navbar } from "./navbar";
-import { Container } from "./container";
+import { Jumpbotronlist } from "./jumpbotron";
+import { Cards } from "./cards";
 const Home = () => {
     return (
-        <><Navbar /><Container /></>
+        <><Navbar />< Jumpbotronlist /><Cards /><footer/></>
     );
 };
 export default Home
